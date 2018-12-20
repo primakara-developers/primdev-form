@@ -1,0 +1,134 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../font/Montserrat-Regular.ttf');
+}
+
+body {
+    color: #696969;
+    font-family: 'Montserrat';
+    margin: 0;
+}
+
+#header {
+    float: left;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+}
+
+#logo {
+    float: left;
+    margin-left: 50px;
+    width: 195px;
+}
+
+#menu {
+    font-size: 20px;
+    float: right;
+    margin-top: 10px;
+}
+
+.menu-item {
+    color: #7ce9ad;
+    float: left;
+    margin-right: 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.menu-item:hover {
+    color: #28c46e;
+}
+
+
+#main {
+    float: left;
+    width: 100%;
+}
+
+.banner {
+    width: 100%;
+}
+
+#form-content {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 85px;
+    margin-bottom: 85px;
+    width: 650px;
+}
+
+.form-title {
+    color: #28c46e;
+}
+
+.form-subtitle {
+    font-weight: normal;
+}
+
+#form-daftar {
+    font-size: 18px;
+}
+
+.form-input {
+    font-size: 18px;
+    margin-top: 20px;
+    padding: 16px;
+    width: 100%;
+}
+
+.green-title {
+    color: #28c46e;
+    font-size: 18px;
+    margin-top: 35px;
+}
+
+.radio-item {
+    margin-top: 15px;
+}
+
+.checkbox-item {
+    margin-top: 15px;
+}
+
+.form-textarea {
+    height: 160px;
+    margin-bottom: 24px;
+}
+
+.reset-button {
+    background-color: #e57474;
+    border: 0;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 10px 50px;
+}
+
+.submit-button {
+    background-color: #28c46e;
+    border: 0;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 10px 50px;
+}
+
+
+#back-to-top {
+    bottom: 36px;
+    position: fixed;
+    right: 56px;
+}
+
+
+
+#footer {
+    background-color: #28c46e;
+    float: left;
+    width: 100%;
+}
+
+.footer-text {
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+}

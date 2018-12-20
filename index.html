@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>PrimDev Form</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <div id="header">
+        <img src="img/logo-primdev.png" id="logo">
+        <div id="menu">
+            <a href="" class="menu-item">Home</a>
+            <a href="" class="menu-item">About</a>
+            <a href="" class="menu-item">Members</a>
+            <a href="" class="menu-item">Join</a>
+        </div>
+    </div>
+
+    <div id="main">
+        <!-- TODO: Will be create later -->
+        <div style="height: 620px; width: 100%; background: #28c46e;"></div>
+
+        <div id="form-content">
+            <h1 class="form-title">ISI DATA BERIKUT</h1>
+            <h3 class="form-subtitle">Bergabunglah bersama kami dan kita ubah dunia menjadi bulan!</h3>
+
+            <form id="form-daftar">
+                <input type="text" name="nama_lengkap" placeholder="Nama Lengkap" class="form-input">
+                <input type="email" name="email" placeholder="Email" class="form-input">
+                <input type="number" name="umur" placeholder="Umur" min="1" class="form-input">
+                <select name="prodi" class="form-input">
+                    <option disabled selected>Jurusan</option>
+                    <option>Informatika</option>
+                    <option>Sistem Informasi</option>
+                    <option>Sistem Informasi Akuntansi</option>
+                </select>
+
+                <div class="green-title">Tipe Kemaluan Anda</div>
+                <input type="radio" name="kemaluan" class="radio-item"> Laki-laki<br>
+                <input type="radio" name="kemaluan" class="radio-item"> Perempuan<br>
+                <input type="radio" name="kemaluan" class="radio-item"> Kurang Yakin
+
+                <div class="green-title">Bahasa Yang Anda Bisa</div>
+                <input type="checkbox" name="bahasa" class="checkbox-item"> HTML<br>
+                <input type="checkbox" name="bahasa" class="checkbox-item"> Javascript<br>
+                <input type="checkbox" name="bahasa" class="checkbox-item"> Python<br>
+                <input type="checkbox" name="bahasa" class="checkbox-item"> Sansekerta<br>
+                <input type="checkbox" name="bahasa" class="checkbox-item"> Sunda<br>
+
+                <div class="green-title">Alasan Kenapa Masih Jomblo</div>
+                <textarea name="alasan_jomblo" class="form-input form-textarea" placeholder="Jelaskan Mblo!"></textarea>
+
+                <input type="reset" value="Batal" class="reset-button">
+                <input type="submit" value="Gabung" class="submit-button">
+            </form>
+        </div>
+
+        <div id="back-to-top">
+            <a href="#top"><img src="img/back-to-top.png" width="45"></a>
+        </div>
+
+    </div>
+
+    <div id="footer">
+        <p class="footer-text">2018 &copy; All rights reserved - Primakara Developers - BATCH 2</p>
+    </div>
+
+</body>
+</html>
