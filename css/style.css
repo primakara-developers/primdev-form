@@ -3,10 +3,15 @@
     src: url('../font/Montserrat-Regular.ttf');
 }
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     color: #696969;
     font-family: 'Montserrat';
     margin: 0;
+    box-sizing: border-box;
 }
 
 #header {
