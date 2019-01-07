@@ -132,3 +132,78 @@ body {
     font-size: 18px;
     text-align: center;
 }
+
+
+
+/* HALAMAN ABOUT */
+#judul-halaman {
+    background: #28c46e;
+    padding-bottom: 120px;
+    padding-top: 120px;
+}
+
+#judul-halaman h1 {
+    color: #ffffff;
+    font-size: 56px;
+    text-align: center;
+}
+
+.konten-tengah {
+    margin: auto;
+    width: 1150px;
+}
+
+.konten-tentang-kami {
+    float: left;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.gambar-kiri {
+    float: left;
+    width: 30%;
+}
+
+.text-kanan {
+    font-size: 24px;
+    float: right;
+    line-height: 1.5; /* Memberi jarak antara baris kalimat */
+    padding-left: 5%;
+    width: 65%;
+}
+
+.link-hijau {
+    color: #28c46e;
+    text-decoration: none;
+}
+
+.link-hijau:hover {
+    text-decoration: underline;
+}
+
+.gambar-kanan {
+    float: right;
+    width: 30%;
+}
+
+.text-kiri {
+    font-size: 24px;
+    float: left;
+    line-height: 1.5; /* Memberi jarak antara baris kalimat */
+    padding-right: 5%;
+    width: 65%;
+}
+
+.subjudul-hijau {
+    color: #28c46e;
+    font-size: 36px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.text-tengah {
+    font-size: 24px;
+    line-height: 1.5; /* Memberi jarak antara baris kalimat */
+    margin-top: 8px;
+    text-align: center;
+}
